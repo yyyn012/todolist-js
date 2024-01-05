@@ -11,17 +11,16 @@
     <h2 id="clock">00:00:00</h2>
 
     <!-- 로그인 -->
-    <div id="login-form">
-      <form>
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="닉네임을 입력해주세요"
-        />
-        <button>Log In</button>
-      </form>
-    </div>
+    <form class="hidden" id="login-form">
+      <input
+        required
+        maxlength="15"
+        type="text"
+        placeholder="닉네임을 입력해주세요"
+      />
+      <input type="submit" value="Log In" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
     <script src="app.js"></script>
   </body>
 </html>
