@@ -1,26 +1,23 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>To do list</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <!-- 시계 -->
-    <h2 id="clock">00:00:00</h2>
-
-    <!-- 로그인 -->
+    <!-- log in -->
     <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="닉네임을 입력해주세요"
-      />
+      <input required type="text" placeholder="Write your name" />
       <input type="submit" value="Log In" />
     </form>
-    <h1 id="greeting" class="hidden"></h1>
-    <script src="app.js"></script>
+    <h1 class="hidden" id="greeting"></h1>
+
+    <!-- clock -->
+    <h2 id="clock">00:00:00</h2>
+
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
   </body>
 </html>
