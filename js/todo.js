@@ -67,4 +67,6 @@ if (savedToDos !== null) {
   toDos = parsedToDos;
   parsedToDos.forEach(paintToDo);
 }
+// JSON.parse()를 이용해 object(JSON 문자열)인 savedToDos를 JavaScript 객체로 변환했다.
+// JavaScript 객체로 변한 savedToDos들을 toDos에 저장하고 paintToDo를 이용해 하나씩 브라우저에 나타냈다.
 // forEach는 array가 가지고 있는 기능 중 하나로, forEach()를 사용하면 배열의 요소마다 영향을 줄 수 있다.
